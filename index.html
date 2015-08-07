@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Introduction to the
+# command line
+
+---
+
+class: center, middle
+
+![alt text](http://www.marmaladeontoast.co.uk/assets/uploads/x1337023395fixie.jpg "Fixie")
+<sub style="font-size:8px;">image transclusion: http://go21979.blogspot.com/2014/12/fixie-bikes-fun-blog.html</sub>
+
+---
+
+# Why should I bother?
+
+* Automated processing – repeating the same task many times
+* More detailed control 
+* Fast and low-memory
+ * working with lots of files
+ * working with big files
+* Seeing actual content of files
+---
+
+# Why should I bother?
+
+* wget 
+* pandoc  pandoc -o output.html input.md 
+* python, and NLTK, R, Ruby, etc
+* Git 
+* MALLET and many others
+
+---
+
+# Terminology
+
+* Terminal, shell, command-line, commandline, bash 
+* directory, folder
+* root and root
+
+---
+
+class: center, middle
+
+[http://www.princeton.edu/~benj/workshop.zip](http://www.princeton.edu/~benj/workshop.zip)
+
+---
+
+# Do it #1
+
+Download and unzip Dumas to the Desktop.  
+Open terminal and go to the desktop. 
+Find the Dumas directory. 
+
+What does the -m switch do?  
+What does the -b switch do? 
+How much space do all the files in the directory take up? 
+
+---
+# Do it #2
+
+Within the Dumas directory, organize the files. Rename the prologue and epilogue files so that they sort correctly. 
+
+Open a text file, make a change, and save using the same filename.
+
+Create a new file named notes.txt, enter some text, and save.
+---
+# Do it #3
+
+Search all the text files for a keyword (king, prince, duke, princess, duchess are all good) and output the results to a text file.  Do the same again, but with line numbers. 
+
+Generate a list of the word counts of all the text files. Extra credit: sort and export the list to a text file. 
+---
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
